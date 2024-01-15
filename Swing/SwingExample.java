@@ -29,16 +29,7 @@ public class SwingExample extends JFrame {
         });
 
 
-        setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
 
-
-        add(label);
-        add(button);
-
-
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(300, 200);
-        setLocationRelativeTo(null); // Center the JFrame on the screen
     }
 
     public static void main(String[] args) {
@@ -47,6 +38,7 @@ public class SwingExample extends JFrame {
 
         // Set the visibility of the JFrame
         swingExample.setVisible(true);
+
     }
 }
 
