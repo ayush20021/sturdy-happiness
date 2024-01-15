@@ -4,6 +4,7 @@ public class Main {
         for (int i = 0;i<=10;i++){
             System.out.println(a +" * "+i+" = "+a*i);
             System.out.println("OK");
+            System.out.println("3");
         }
     }
 }
