@@ -3,6 +3,7 @@ public class Main {
         int a = 2;                           // A Simple Table to Print
         for (int i = 0;i<=10;i++){
             System.out.println(a +" * "+i+" = "+a*i);
+            System.out.println("OK");
         }
     }
 }
